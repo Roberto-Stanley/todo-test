@@ -2,6 +2,11 @@
 
 this repository has three project the root, auth, and the todo project, every project has been built with [single-spa framework](https://single-spa.js.org/)
 
+## account
+
+| username | admin |
+| password | 12345 |
+
 ## 💻 Run in localhost
 
 If you want to runt these application on the localhost you must follow next steps:
