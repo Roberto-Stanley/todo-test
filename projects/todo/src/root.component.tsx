@@ -1,3 +1,14 @@
+import DefaultLayout from "./layout/DefaultLayout";
+import { TodosProvider } from "./context/todoContext";
+
 export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+  const token = localStorage.getItem("token");
+  const user = localStorage.getItem("user");
+  if (!token || !user) window.history.pushState(null, null, "/login");
+
+  return (
+    <TodosProvider>
+      <DefaultLayout />
+    </TodosProvider>
+  );
 }
