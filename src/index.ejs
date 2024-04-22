@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Root Config</title>
+  <title>Todo Test</title>
 
   <!--
     Remove this if you only support browsers that support async/await.
@@ -47,7 +47,10 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
+        "react": "https://cdn.jsdelivr.net/npm/react@17.0.2/umd/react.production.min.js",
+        "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@17.0.2/index.min.js",
+        "@rreyes/auth": "//localhost:8080/rreyes-auth.js",
+        "@rreyes/todo": "//localhost:8081/rreyes-todo.js",
         "@rreyes/root-config": "//localhost:9000/rreyes-root-config.js"
       }
     }
