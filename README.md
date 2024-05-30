@@ -1,6 +1,6 @@
 # Todo Digital Solution test
 
-this repository has three project the root, auth, and the todo project, every project has been built with [single-spa framework](https://single-spa.js.org/)
+this repository has three project the root, auth, and the todo project, every project has been built with [single-spa framework](https://single-spa.js.org/), please read the whole documentation.
 
 ## account
 
@@ -27,7 +27,7 @@ If you want to runt these application on the localhost you must follow next step
 npm install
 ```
 
-2. run this command for staring the root project, and going to the [browser](http://localhost:9000/)
+2. run this command for staring the root project, and going to the [browser](http://localhost:9000/) **you can here the whole project here (root, auth, todo, etc)**
 
 ```
 npm run start
@@ -38,7 +38,7 @@ npm run start
 1. Go to 'projects/auth' directory and executing the follow commands
 
 ```
-npm run install
+npm install
 ```
 
 2. Run this command for running the auth project, and going to the [browser](http://localhost:8080/), and you should be able to see it
@@ -52,7 +52,7 @@ npm run start:standalone
 1. Go to 'projects/todo' directory, and executing the follow commands
 
 ```
-npm run install
+npm install
 ```
 
 2. Run project with this command and you should be able to see it on the [browser](https://localhost:8081)
@@ -63,7 +63,8 @@ npm run start:standalone
 
 ### alert
 
-it's very important to config **index.ejs** file on the root project with the specific ports where the apps are running on the local environment
+it's very important to config **index.ejs** file on the root project with the specific ports where the apps are running on the local environment, in this project
+you have to start auth project in **8080** port and todo project in **8081** port
 
 ```
     {
