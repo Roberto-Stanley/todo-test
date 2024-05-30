@@ -27,7 +27,7 @@ If you want to runt these application on the localhost you must follow next step
 npm install
 ```
 
-2. run this command for staring the root project, and going to the [browser](http://localhost:9000/) **you can here the whole project here (root, auth, todo, etc)**
+2. run this command for staring the root project, and going to the [browser](http://localhost:9000/) **you can see the whole project here (root, auth, todo, etc)**
 
 ```
 npm run start
